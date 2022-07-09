@@ -24,8 +24,12 @@
 
     a{text-decoration:none;
          background-color: #C54626;
-          padding: 8px;
-    color:white;}
+          padding: 10px 20px;
+    color:white;
+    border-radius: 5px;
+ }
+
+ a:hover{background-color:#881e04;}
 
 body{margin:0;}
 section{display: flex; 
@@ -66,37 +70,56 @@ hr{width: 50%;
      margin-left: 1%;
      margin-right: 3%;
     box-shadow: 10px 10px 10px rgb(41, 4, 4);}
+    .dfour:hover{background-color: plum;}
 
 .sectwo{display: flex;
-     margin: 0;
-     width: 100%}
+    margin: 0;
+       } 
 
-.dfive{margin-left: 5%;
-    padding: 20px;}
+.dfive{padding: 5%;width: 50%;font-size: 22px;}
+
+.hfour{margin-top: 100px;}
+.perafour{width: 70%;font-size: 20px; padding-bottom: 20px;}
+
+
+.dfive img{width: 95%;}
 
 .secthree{display: flex;
-    margin: 0;
-    width: 100%;}
+           margin: 0;}
 
-.dsix{margin-left: 5%;}
+.dsix{width: 50%; padding: 3%;font-size: 22px;}
+.hfive{margin-top: 100px;}
+.perafive{width: 70%;font-size: 20px; padding-bottom: 20px;}
+.dsix img{width: 90%;}
 
 .dseven{text-align: center;
     margin-bottom: 20px;}
 
-.lastp{margin-top: 75px;}
+.bone{width: 250px;padding: 10px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    background-color: rgb(141, 138, 138);}
 
-button{font-size: 15px;
-     width: 200px;
-     padding: 10px;
-     background-color: bisque;
-     border: 2px solid gray;}
-button:hover{background-color: floralwhite;}
+.btwo{width: 150px;padding: 10px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+background-color: #e66848;}
 
-.bone{font-weight: 600;}
+.bone:hover{background-color: rgb(250, 223, 236);
+    transition: 0.7s;}
 
-.btwo{text-align: left;font-weight: 600;}
+.btwo:hover{background-color: rgb(221, 52, 10);
+    transition: 0.7s;}
 
-.perasix{margin: 30px 30% 30px 30%; width: 40%;}
+.perasix{margin: 30px 30%;
+     width: 40%;}
+
+.deight{background-color: rgb(247, 233, 212);
+    width: 50%;padding: 60px;
+    margin-left: 25%;}
+
+    
+.lastp{margin-top: 20px;}
 
 footer{margin-top: 50px; 
     background-color: black;
@@ -104,3 +127,4 @@ footer{margin-top: 50px;
     padding: 10px; 
     text-align: center;
     height: 150px;}
+    .lasth{ margin-top: 40px;}
